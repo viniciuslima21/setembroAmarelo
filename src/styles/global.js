@@ -19,6 +19,11 @@ const GlobalStyles = createGlobalStyle`
         scroll-behavior: smooth; //Scroll suave
     }
 
+    ::selection {
+        background: ${props => props.theme.colors.white};
+        color: ${props => props.theme.colors.primary};
+    }
+
     p {
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;

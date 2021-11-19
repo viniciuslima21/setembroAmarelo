@@ -35,10 +35,18 @@ export const Content = styled.div`
     }
 `
 
+export const Arrow = styled.p`
+    @media (max-width: 767px) { display: none; }
+    position: absolute;
+    font-size: 0.8rem!important;
+    top: 35px;
+    color: ${props => props.black && props.theme.colors.primary};
+`
+
 export const PageBalls = styled.div`
     position: absolute;
     display: flex;
-    top: 35px;
+    bottom: 35px;
 `
 
 export const Ball = styled.div`
@@ -56,12 +64,4 @@ export const BallSelected = styled.div`
     margin: 0 3px;
     background: none;
     border: 2px solid ${props => props.black ? props.theme.colors.primary : props.theme.colors.black };
-`
-
-export const Arrow = styled.p`
-    @media (max-width: 767px) { display: none; }
-    position: absolute;
-    font-size: 0.8rem!important;
-    bottom: 35px;
-    color: ${props => props.black && props.theme.colors.primary};
 `
