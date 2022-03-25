@@ -7,7 +7,7 @@ https://setembroamarelo.vercel.app/
 Para visualizar em seu computador use: 
 
 ```
-git clone https://github.com/viniciuslima21/setembroAmarelo.git
+git clone https://github.com/viniciuslimaan/setembroAmarelo.git
 ```
 
 ## Tecnologias utilizadas
