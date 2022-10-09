@@ -2,7 +2,7 @@
 Site da campanha Setembro Amarelo criado para um trabalho de faculdade.
 
 Deploy do projeto:
-https://setembroamarelo.vercel.app/
+https://setembroamarelo.vercel.app
 
 Para visualizar em seu computador use: 
 
